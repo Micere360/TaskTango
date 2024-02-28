@@ -4,6 +4,7 @@
   "description": "A Task Management API",
   "main": "app.js",
   "dependencies": {
+    "express": "^4.18.2",
     "yargs": "^17.7.2"
   },
   "devDependencies": {
@@ -28,4 +29,3 @@
   },
   "homepage": "https://github.com/Micere360/TaskTango#readme"
 }
-
