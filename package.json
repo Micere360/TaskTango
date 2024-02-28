@@ -6,9 +6,12 @@
   "dependencies": {
     "yargs": "^17.7.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.15"  // Adding nodemon as a dev dependency for the "dev" script
+  },
   "scripts": {
-    "test": "No test specified"
+    "test": "No test specified",
+    "dev": "nodemon app.js"  // Adding "dev" script to start the server with nodemon
   },
   "repository": {
     "type": "git",
@@ -25,3 +28,4 @@
   },
   "homepage": "https://github.com/Micere360/TaskTango#readme"
 }
+
