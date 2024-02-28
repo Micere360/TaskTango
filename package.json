@@ -1,0 +1,27 @@
+{
+  "name": "tasktango",
+  "version": "1.0.0",
+  "description": "A Task Management API",
+  "main": "app.js",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "No test specified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Micere360/TaskTango.git"
+  },
+  "keywords": [
+    "None",
+    "Specified"
+  ],
+  "author": "Addah Micere and Brenda Liona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Micere360/TaskTango/issues"
+  },
+  "homepage": "https://github.com/Micere360/TaskTango#readme"
+}
