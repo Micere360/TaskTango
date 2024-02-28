@@ -1,13 +1,8 @@
 const yargs = require("yargs");
 const getTasks = require("./intro.js");
 
-// console.log(process.argv)
-// console.log(yargs.argv);
-
-// customize yargs version
 yargs.version("1.1.0");
 
-//create yargs add command
 yargs.command({
   command: "add",
   describe: "Add a task",
@@ -21,8 +16,6 @@ yargs.command({
   },
 });
 
-// remove yargs command
-
 yargs.command({
   command: "Remove",
   describe: "Remove a task",
@@ -31,7 +24,6 @@ yargs.command({
   },
 });
 
-// create yargs list command
 yargs.command({
   command: "list",
   describe: "List all tasks",
@@ -40,7 +32,6 @@ yargs.command({
   },
 });
 
-// create yargs read command
 yargs.command({
   command: "read",
   describe: "Read a task",
@@ -49,5 +40,5 @@ yargs.command({
   },
 });
 
-// console.log(yargs.argv);
-yargs.parse(); // parse is used to parse the command line arguments
+yargs.parse();
+
