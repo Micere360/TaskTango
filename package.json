@@ -1,0 +1,31 @@
+{
+  "name": "tasktango",
+  "version": "1.0.0",
+  "description": "A Task Management API",
+  "main": "app.js",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"  // Adding nodemon as a dev dependency for the "dev" script
+  },
+  "scripts": {
+    "test": "No test specified",
+    "dev": "nodemon app.js"  // Adding "dev" script to start the server with nodemon
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Micere360/TaskTango.git"
+  },
+  "keywords": [
+    "None",
+    "Specified"
+  ],
+  "author": "Addah Micere and Brenda Liona",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Micere360/TaskTango/issues"
+  },
+  "homepage": "https://github.com/Micere360/TaskTango#readme"
+}
+
